@@ -1,7 +1,7 @@
 {
-  "name": "module-4-promo-bpt-proyectos-molones-grupo-1",
+  "name": "project_admin",
   "version": "1.1.0",
-  "description": "Proyectos molones grupo 1",
+  "description": "project_admin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "dev": "node --watch src/index.js",
     "publish-react": "cd web && npm run deploy && cd .. && rm -rf ./src/public-react && mv ./web/docs ./src/public-react"
   },
-  "author": "grupo uno",
+  "author": "Jeannette Arias",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laurarguezf/module-4-promo-bpt-proyectos-molones-grupo-1.git"
+    "url": "https://github.com/jeannettearias/Project-admin-app"
   },
   "keywords": [
     "express",
     "node"
   ],
   "bugs": {
-    "url": "https://github.com/laurarguezf/module-4-promo-bpt-proyectos-molones-grupo-1/issues"
+    "url": "https://github.com/jeannettearias/Project-admin-app/issues"
   },
-  "homepage": "https://github.com/laurarguezf/module-4-promo-bpt-proyectos-molones-grupo-1#readme"
+  "homepage": "https://github.com/jeannettearias/Project-admin-app#readme"
 }

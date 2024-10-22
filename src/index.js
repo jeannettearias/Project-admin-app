@@ -78,7 +78,7 @@ server.post('/projects', async (req, res) => {
 	//Autora
 	try {
 		const [authorInsertResult] = await connection.execute(
-			`INSERT INTO freedb_proyectos_molones.Author (author_name, author_job, author_photo) 
+			`INSERT INTO project_admin.Author (author_name, author_job, author_photo) 
 			VALUES (?, ?, ?)`,
 			[
 				req.body.author_name,
@@ -90,7 +90,7 @@ server.post('/projects', async (req, res) => {
 
 		//Project
 		const [results] = await connection.execute(
-			`INSERT INTO freedb_proyectos_molones.project (project_name, project_slogan, project_repo, project_demo, project_technologies, project_description, project_image, Author_idAuthor)
+			`INSERT INTO project_admin.project (project_name, project_slogan, project_repo, project_demo, project_technologies, project_description, project_image, Author_idAuthor)
 				VALUES (?, ?, ?, ?, ?, ?,?,?)` ,
 			[
 				req.body.project_name,
