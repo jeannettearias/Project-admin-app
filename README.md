@@ -1,1 +1,1 @@
-# module-4-promo-bpt-proyectos-molones-grupo-1
+# Web project to create Project cards with the author's information, consisting of two applications; a frontend built with JavaScript, React HTML5, and SCSS, and an API built with Nodejs and Express, connected to a MySQL DB to store the information. 
